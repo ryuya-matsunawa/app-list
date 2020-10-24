@@ -1,4 +1,4 @@
 <template lang="pug">
-#app
-  router-view
+.random-number
+  | random-number
 </template>

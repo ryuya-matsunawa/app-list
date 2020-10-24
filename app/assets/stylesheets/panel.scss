@@ -1,0 +1,15 @@
+.panel {
+  box-shadow: 0 0 1vw 0.5vw rgba(95, 95, 95, 0.4);
+  width: 20%;
+  .panel-body {
+    height: 20vh;
+  }
+  .panel-footer {
+    text-align: center;
+    padding: 1vw 0;
+
+    button {
+      padding: 1vw 2vw;
+    }
+  }
+}
