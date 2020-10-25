@@ -27,11 +27,11 @@ export default defineComponent({
   },
   setup(_, { root: { $router } }) {
     function goApp(name) {
-      $router.push({name: name})
+      $router.push({name: name});
     }
     return {
       goApp
-    }
+    };
   }
 });
 </script>
