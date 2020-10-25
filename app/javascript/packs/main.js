@@ -10,8 +10,9 @@ import App from '../app.vue';
 import router from './router.js';
 
 import VueCompositionApi from '@vue/composition-api';
-
 Vue.use(VueCompositionApi);
+
+Vue.config.productionTip = false;
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = new Vue({
